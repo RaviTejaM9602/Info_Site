@@ -1,12 +1,13 @@
 import React from "react"
+import logo from './logo.svg';
+import './Nav.css';
 
 export default function Navbar() {
-    return (<nav>
-        <h1>Ravi's Bistro</h1>
-        <ul>
-        <li>About</li>
-        <li>Pricing</li>
-        <li>Contact</li>
-        </ul>
-        </nav>)
+    return (
+        <nav>
+            <img src={logo} className="App-logo" alt="logo" />
+            <h3 className="nav--logo_text">ReactFacts</h3>
+            <h4 className="nav--title">React Course - Project 1</h4>
+        </nav>
+    )
 }
