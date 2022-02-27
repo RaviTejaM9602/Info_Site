@@ -1,4 +1,4 @@
-# Awesome_Books
+# Info site
 Static web page for practising JSX and Custom component 
 
 > A demo website for Info site about React
