@@ -1,3 +1,8 @@
+body {
+  height: 100vh;
+  background-color: #282c34;
+}
+
 .App {
   text-align: center;
 }
@@ -67,12 +72,15 @@ nav {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 57px 27px;
   color: white;
 }
 
 .main--title {
-  margin: 0;
   font-size: 39px;
   letter-spacing: -0.05em;
 }
